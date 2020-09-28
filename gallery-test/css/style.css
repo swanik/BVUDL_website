@@ -1,0 +1,12 @@
+*{margin:0; padding:0; box-sizing: border-box;}
+body {background:#212121;  font-family:Arial, Helvetica, sans-serif; text-transform:capitalize; color:#fff; font-size:16px;}
+.wrapper{ position:relative; height: 100vh; width: 100vw; overflow: hidden;}
+#main, #main > img { position: relative; width: 100vw; height: 100vh !important;}
+p{ position: absolute; width:auto; padding: 20px; font-size: 20px; background-color: #333; top:20px; left:20px; opacity: 0.5; filter: alpha(opacity=50); /* For IE8 and earlier */}
+#nextBtn, #prevBtn{ cursor:pointer !important; position:fixed; top: 50%; width:60px; height: 60px; border:1px solid #fff; background-image: url("../imgs/nextBtn.png"); background-size: 100% 100%; background-repeat: no-repeat; color: #fff;}
+#nextBtn{ right: 1px;}
+#prevBtn{ left: 1px; transform: rotate(180deg);}
+#thumbnail {position: absolute;	bottom: 20px; width:100%; text-align: center;}
+#thumbnail > img{ margin-left: 20px; cursor:pointer; border:3px solid #444; transition: all .3s; width:16vw;}
+#thumbnail > img:hover{ border:3px solid #fff; transform: scale(1.1, 1.1);}
+#thumbnail > img.clicked{ border:3px solid #fff;}

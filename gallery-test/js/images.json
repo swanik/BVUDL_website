@@ -1,0 +1,24 @@
+{
+"images": [
+    {
+        "url_thumb": "imgs/spaceImgs/lucernarium_thumb.jpg",
+        "url_big": "imgs/spaceImgs/lucernarium.jpg",
+        "caption": "Image 1 Caption : Lucernarium"
+    },
+    {
+        "url_thumb": "imgs/spaceImgs/lux_thumb.jpg",
+        "url_big": "imgs/spaceImgs/lux.jpg",
+        "caption": "Image 2 Caption : Lux"
+    },
+    {
+        "url_thumb": "imgs/spaceImgs/moons_thumb.jpg",
+        "url_big": "imgs/spaceImgs/moons.jpg",
+        "caption": "Image 3 Caption : Moons"
+    },
+    {
+        "url_thumb": "imgs/spaceImgs/transitorius_thumb.jpg",
+        "url_big": "imgs/spaceImgs/transitorius.jpg",
+        "caption": "Image 4 Caption : Transitorius"
+    }
+]
+}
